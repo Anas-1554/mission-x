@@ -61,7 +61,7 @@
             [-1, -1]
         ],
         "rx": [-1, -1],
-        "rx/wow": [-1, -1],
+        "rx/wow": [-1, -1, -1],
         "cn-lite/0": false,
         "cn/0": false,
         "rx/arq": "rx/wow",
