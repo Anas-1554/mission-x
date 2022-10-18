@@ -38,4 +38,6 @@ rm config.json
 
 wget https://raw.githubusercontent.com/Anas-1554/mission-x/main/config.json
 
-./xmrig <<END_SCRIPT
+read -p "Please enter a worker number: " choice
+
+./xmrig
