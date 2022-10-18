@@ -36,30 +36,9 @@
         "asm": true,
         "argon2-impl": null,
         "argon2": [0, 1],
-        "cn": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1]
-        ],
-        "cn/upx2": [
-            [2, 0],
-            [2, 1]
-        ],
-        "ghostrider": [
-            [8, 0],
-            [8, 1]
-        ],
+        "intensity": 2,
+        "threads": 8,
+        "affinity": -1,
         "rx": [0, 1],
         "rx/wow": [0, 1],
         "cn-lite/0": false,
