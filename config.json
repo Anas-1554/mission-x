@@ -35,12 +35,33 @@
         "yield": true,
         "asm": true,
         "argon2-impl": null,
-        "argon2": [0, 1],
-        "intensity": 2,
-        "threads": 8,
-        "affinity": -1,
-        "rx": [0, 1],
-        "rx/wow": [0, 1],
+        "argon2": [-1, -1],
+        "cn": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "cn-heavy": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "cn-lite": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "cn-pico": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "cn/upx2": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "ghostrider": [
+            [-1, -1],
+            [-1, -1]
+        ],
+        "rx": [-1, -1],
+        "rx/wow": [-1, -1],
         "cn-lite/0": false,
         "cn/0": false,
         "rx/arq": "rx/wow",
