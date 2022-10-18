@@ -40,4 +40,4 @@ wget https://raw.githubusercontent.com/Anas-1554/mission-x/main/config.json
 
 read -p "Please enter a worker number: " choice
 
-./xmrig
+tmux new-session -d -s my_session './xmrig -u XMR:48hw9PkQ7AyJH6yungg96b8SjzMdJ8QVq4mSo1w4MKpdNH9JXJiijYQDshfSDtpx9UKSNWCAkEB9rcnsaPbs6M9y3Y18EwY.$choice' 
